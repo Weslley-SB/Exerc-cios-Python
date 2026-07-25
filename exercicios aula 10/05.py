@@ -1,6 +1,0 @@
-ano = int(input("Digite o ano para ver se é bissexto: "))
-
-if ano % 4 == 0 and ano % 100 != 0 or ano % 400 == 0:
-    print(f"O ano {ano} é um ano Bissexto")
-else:
-    print(f"O ano {ano} não é um ano Bissexto")
